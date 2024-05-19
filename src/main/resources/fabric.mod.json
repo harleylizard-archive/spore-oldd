@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "spore",
+  "version": "${version}",
+  "name": "Spore",
+  "description": "Library for creating trees from structure tags.",
+  "authors": [
+    "harleylizard"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/spore",
+    "sources": "https://github.com/harleylizard/spore"
+  },
+  "license": "MIT License",
+  "icon": "assets/spore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.harleylizard.spore.Spore" ]
+  },
+  "mixins": [
+    "spore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
